@@ -11,8 +11,8 @@ func TestBinSearch(t *testing.T) {
 		s = append(s, i)
 	}
 
-	fmt.Println(binSearch(s, 0, len(s)-1, 7))
-	fmt.Println(binSearch(s, 0, len(s)-1, 71))
+	fmt.Println(binarySearch(s, 0, len(s)-1, 7))
+	fmt.Println(binarySearch(s, 0, len(s)-1, 71))
 }
 
 func TestBinSearch2(t *testing.T) {
@@ -21,6 +21,6 @@ func TestBinSearch2(t *testing.T) {
 		s = append(s, i)
 	}
 
-	fmt.Println(binSearch2(s, 7))
-	fmt.Println(binSearch2(s, 71))
+	fmt.Println(binarySearch2(s, 7))
+	fmt.Println(binarySearch2(s, 71))
 }
