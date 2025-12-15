@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"time"
 )
+
 // 使用context.Context进行信号同步
 func main() {
 	ctx, cancel := context.WithTimeout(context.Background(), 1*time.Second)
