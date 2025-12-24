@@ -1,6 +1,6 @@
 # process
 
-- [ ] problem1
+- [x] problem1
 - [ ] problem2
 - [ ] problem3
 - [ ] problem4
